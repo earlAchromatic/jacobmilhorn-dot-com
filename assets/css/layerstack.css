@@ -1,0 +1,83 @@
+.layerstack {
+  position: absolute;
+  left: 0;
+  top: -100px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.layer {
+  height: 100%;
+  width: 105%;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  overflow: hidden;
+}
+
+.layer:nth-child(1) {
+  background-image: url("../images/indLayerC.png");
+  background-position: center;
+  background-size: 105vw 100vh;
+  background-repeat: no-repeat;
+}
+.layer:nth-child(3) {
+  background-image: url("../images/indLayerB.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  backdrop-filter: blur(10px) saturate(40%);
+}
+.layer:nth-child(5) {
+  background-image: url("../images/indLayerA.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px) saturate(50%);
+}
+
+.layer:nth-child(7) {
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px) saturate(90%);
+}
+
+#ls-1 {
+  background-image: url("../images/lightsource.png");
+  background-position: 800px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#prp-grs {
+  background-image: url("../images/purple_grass.svg");
+  background-position: 0px 700px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#sqrs {
+  background-image: url("../images/jacobcubes.png");
+  background-position: 900px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#jacob {
+  background-image: url("../images/jacobtoon2.png");
+  background-position: 900px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#blk-grs {
+  background-image: url("../images/black_grass2.svg");
+  background-position: 0px 725px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

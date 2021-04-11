@@ -10,3 +10,7 @@ body {
   --navbar-brand-image-height: 50px;
   --navbar-height: 100px;
 }
+
+.page-wrapper {
+  top: 0;
+}
