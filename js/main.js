@@ -10,4 +10,8 @@ particlesJS.load("p3", "assets/data/p3.json", function () {
   console.log("callback - 3.js config loaded");
 });
 
+particlesJS.load("p4", "assets/data/p4.json", function () {
+  console.log("callback - 3.js config loaded");
+});
+
 console.log("hi");
