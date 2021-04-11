@@ -1,0 +1,14 @@
+{
+  "name": "jacobmilhorn.com",
+  "version": "1.0.0",
+  "description": "jacob milhorn's personal site",
+  "main": "index.js",
+  "scripts": {
+    "serve": "eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

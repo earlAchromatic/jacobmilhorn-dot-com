@@ -1,0 +1,12 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* overrides for custom half-moon styling in global html */
+:root {
+  --navbar-brand-image-height: 100%;
+  --navbar-height: 100px;
+}
